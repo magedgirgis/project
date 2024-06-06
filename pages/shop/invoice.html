@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>A simple, clean, and responsive HTML invoice template</title>
+
+    <link rel="stylesheet" href="invoice.css">
+</head>
+
+<body>
+    <div class="invoice-box">
+        <table cellpadding="0" cellspacing="0">
+            <tr class="top">
+                <td colspan="2">
+                    <table>
+                        <tr>
+                            <td class="title">
+                                <a href="shop.html">
+                                    <img src="../../img/checkout-r.png" style="width: 100%; max-width: 300px" />
+                                </a>
+                            </td>
+                            <td>
+                                Invoice #:<span id="InvoiceNo"></span>
+                                <br /> Created: <span id="today"></span> <br />
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr class="information">
+                <td colspan="2">
+                    <table>
+                        <tr>
+                            <td>
+
+                                Spiro Spathis, Inc.<br />
+                                 building 1183, Masaken Sheraton,
+                                <br />Cairo, EGYPT
+                            </td>
+
+                            <td>
+                                <strong>Deliver to:</strong> <br>
+                                Address: Giza, Egypt<br /> Name<br /> example@email.com
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <div class="head">
+                <div class="flex justify-between">
+                    <a href="shop.html">
+                    <img src="../../img/17r.png" style="width: 100%; max-width: 300px" />
+                </a>
+                    <h3>Thanks Choosing Spiro Spathis</h3>
+
+                </div>
+                <p>
+                    We are thrilled to extend our heartfelt gratitude for choosing Spirospathis! Your decision to entrust us with your needs means the world to us. At Spirospathis, we are dedicated to providing unparalleled quality and service, ensuring that your experience exceeds all expectations. Thank you for choosing us, and we look forward to serving you with excellence every step of the way.</p>
+            </div>
+            <tr class="heading">
+                <td>Item</td>
+                <td>Qty</td>
+
+                <td>Price</td>
+            </tr>
+            
+            <tr class="item">
+                <td>item 1</td>
+
+                <td>2</td>
+                <td>$16.00</td>
+            </tr>
+
+            <tr class="item">
+                <td>item 2</td>
+
+                <td>5</td>
+                <td>$40.00</td>
+            </tr>
+
+            <tr class="item last">
+                <td>item 3</td>
+
+                <td>3</td>
+                <td>$24.00</td>
+            </tr>
+		
+
+    <div class="invoice"></div>
+            <tr class="total">
+                <td></td>
+
+                <td>Total: $80.00</td>
+            </tr>
+        </table>
+    </div>
+    <script type="module" src="invoice.js"></script>
+</body>
+
+</html>
